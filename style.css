@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerline{
+    background-color    : #231c19;
+    height: 5px;
+    width: 100%;
+}
+.Navbar {
+    height: 116px;
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 254, 254);
+}
+
+.image{
+    height: 116px;
+    width: 116px;
+    background-image: url('./logo.jpg');
+    background-size: cover;
+    margin-left: 55px;
+}
+
+
+.second-nav {
+    height: 116px;
+    width: 100%;
+    margin-right: 98px;
+}
+
+.sn{
+    height: 61px;
+    width: 100%;
+}
+.st-one {
+    height:61px;
+    width: 600px;
+    /* background-color: red; */
+    float: right;
+}
+
+.lista{
+    padding-top: 15px;
+}
+.st-one li{
+    display: inline;
+    font-size: 16px;
+    padding: 21px 9px 16px;
+}
+
+.st-one  i{
+    padding: 10px;
+}
+
+.st-one a {
+    text-decoration: none;
+    color: black;
+    padding-left: 3px;
+}
+
+.st-two{
+    width: 100%;
+    height: 55px;
+    /* background-color: yellow; */
+}
+
+.list{
+    padding-top: 20px;
+    padding-left: 80px;
+}
+
+.st-two a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 0 4px;
+    margin: 0 9px;
+}
