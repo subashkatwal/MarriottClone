@@ -100,9 +100,12 @@
 
 /* background part start */
 .background .img {
-    height: 696.16px;
-    width: 1222.4;
-    background-image: url(./R.jpg);
+    height: 800px;
+    width: 1640px;
+    background-image: url(./b.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .secondContainer {
@@ -128,10 +131,12 @@
     font-size: 17px;
     padding: 23px 1px 23px 45px;
     position: relative;
-
-
 }
 
+/* .location:hover::before{
+    background-color: rgb(180, 180, 180, 0.2);
+    
+} */
 .location i {
     padding: 0px 8px 0px 0px;
 }
@@ -242,6 +247,11 @@
     margin-top: 23px;
 }
 
+.btn1:hover {
+    background-color:rgb(223, 221, 221);
+    
+}
+
 /* background part end */
 
 /* second-section start */
@@ -262,42 +272,84 @@
     width: 100%;
 }
 
-
-.card-section {
-    margin-left: 75px;
-    display: flex;  
-    justify-content: space-evenly;
-    margin-inline: 20px;
+.empty span{
+    float: right;
+    margin-right: 100px;
+    
 }
 
-.card-section .img {
+.empty button{
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.card-section {
+    margin-left: 45px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-section .img1 {
     height: 366px;
     width: 366px;
-    background-image: url(./img0.jpeg);
+    background-image: url(./img1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    position: absolute;
+}
+.card-section .img2 {
+    height: 366px;
+    width: 366px;
+    background-image: url(./img2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     border-radius: 20px;
     position: relative;
-
-
+}
+.card-section .img3 {
+    height: 366px;
+    width: 366px;
+    background-image: url(./img3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    position: relative;
+}
+.card-section .img4 {
+    height: 366px;
+    width: 366px;
+    background-image: url(./img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    position: relative;
 }
 
 .box {
-    height: 345px;
-    width: 325px;
-    background-color: red;
+    height: 270px;
+    width: 305px;
+    background-color: white;
     margin-left: 20px;
     position: absolute;
-    margin-top: 10px;
+    margin-top: 60px;
     font-size: 10px;
+    border-radius: 20px;
 
 }
 
 .box .box2 {
     height:220px ;
     width:220px ;
-    background-color: yellow;
+    /* background-color: yellow; */
     position: absolute;
     margin: 58px 48px 49px 46px;
 }
@@ -307,7 +359,7 @@
     margin: 0;
     margin-left: 38px;
     position: absolute;
-    margin-top: 40px;
+    margin-top: 10px;
     padding: 0px 0px 0px 0px ;
     font-size: 11px;
 }
@@ -319,7 +371,7 @@
     margin: 0;
     position: absolute;
     margin-left: 76px;
-    margin-top: 60px;
+    margin-top: 30px;
 }
 
 .box2 h3{
@@ -327,19 +379,173 @@
     font-size: 19px;
     align-items: center;
     margin-left: 3px;
+    align-items: center;
 }
 
 .box2 .button{
-    height: 40px;
-    width: 100px;
+height: 40px;
+width: 100px;
 justify-content: center;
-background-color: #ffff;
+background-color: #000000;
 border: none;
 border-radius: 28px;
 margin-left: 56px;
 margin-top: 20px;
+color: white;
+}
+/* card-section end */
 
+/* sign-in section start */
+.back-ground .member{
+    height:700px;
+    width: 100%;
+    margin-top: 150px;
+    background-image: url(./b.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.9;
+    
+}
 
+.member{
+height: 576px;
+width: 1222px;
+position: relative;
+}
+
+.member h1{
+color: #ffff;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    height: 80px;
+    width: 520px;
+    margin-top: 180px;
+    margin-left: 50px;
+    position: absolute;
+    font-size: 40px;
+}
+.member p{
+color: #ffff;
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+height: 32px;
+    width: 520px;
+    margin-top: 278px;
+    margin-left: 50px;
+    position: absolute;
+    font-size: 19px;
+    padding: 0px;
+}
+
+.sign-in-btn {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 23px;
+    /* height: 40px;
+    width: 200px; */
+    display: flex;
+    justify-content: space-between;
+    
 
 }
-/* second-section end */
+
+.sign-in-btn .btn-a{
+    height: 40px;
+    width: 120px;
+    background-color:#ffff;
+    border-radius: 20px;
+    color: #000000;
+    border: none;
+}
+.sign-in-btn .btn-b{
+    height: 40px;
+    width: 100px;
+    background-color:transparent;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin-left: 20px;
+    color: #ffff;
+}
+
+.sign-in-btn .btn-a:hover{
+    background-color: rgb(180, 180, 180, 0.9);
+    cursor: pointer;
+}
+
+.sign-in-btn .btn-b:hover{
+    background-color: #ffff;
+    color: black;
+    cursor: pointer;
+}
+/* sign-in section end */
+
+/* Fourth section start */
+
+.head {
+    margin-top: 100px;
+    margin-left: 55px;
+}
+
+.head h2{
+    height: 45px;
+    width:600px;
+    font-size:35px;
+}
+
+.head p{
+    margin-top: 15px;
+}
+
+.new-hotels{
+    display: flex;
+    justify-content: space-evenly;
+}
+.img1{
+    height: 313px;
+    width: 700px;
+    background-image: url(./img5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+
+.img2{
+    height: 313px;
+    width: 700px;
+    background-image: url(./img6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 55px;
+}
+
+.image-hotels h3{
+    height: 50px;
+    width: 440px;
+    margin-top: 160px;
+    margin-left: 50px;
+    position: absolute;
+    font-size: 30px;
+    color: #ffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding: 0px 0px 0px 0px;
+}
+
+.image-hotels button{
+    
+    height: 40px;
+    background-color: #ffff;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 30px;
+    border: none;
+    padding: 12px;
+    margin-top: 230px;
+    margin-left: 40px;
+    position: relative;  
+}
+/* Fourth section end */
