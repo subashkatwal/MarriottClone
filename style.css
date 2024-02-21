@@ -98,6 +98,22 @@
     margin: 0 9px;
 }
 
+.night {
+    font-size: 20px;
+}
+
+.night span {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+/* .dotted-line {
+    height: 116px;
+    width: 2px;
+    color: black;
+    border-left: 2px dotted black;
+} */
 /* background part start */
 .background .img {
     height: 800px;
@@ -288,14 +304,14 @@
 }
 
 .card-section {
-    margin-left: 45px;
+    margin-left:55px;
   display: flex;
   justify-content: space-evenly;
 }
 
 .card-section .img1 {
-    height: 366px;
-    width: 366px;
+    height: 427px;
+    width: 382px;
     background-image: url(./img1.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -304,8 +320,8 @@
     position: absolute;
 }
 .card-section .img2 {
-    height: 366px;
-    width: 366px;
+    height: 427px;
+    width: 382px;
     background-image: url(./img2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -314,8 +330,8 @@
     position: relative;
 }
 .card-section .img3 {
-    height: 366px;
-    width: 366px;
+    height: 427px;
+    width: 382px;
     background-image: url(./img3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -324,8 +340,8 @@
     position: relative;
 }
 .card-section .img4 {
-    height: 366px;
-    width: 366px;
+    height: 427px;
+    width: 382px;
     background-image: url(./img4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -335,12 +351,12 @@
 }
 
 .box {
-    height: 270px;
-    width: 305px;
+    height: 229px;
+    width: 227px;
     background-color: white;
-    margin-left: 20px;
+    margin-left: 75px;
     position: absolute;
-    margin-top: 60px;
+    margin-top: 95px;
     font-size: 10px;
     border-radius: 20px;
 
@@ -349,21 +365,37 @@
 .box .box2 {
     height:220px ;
     width:220px ;
-    /* background-color: yellow; */
     position: absolute;
-    margin: 58px 48px 49px 46px;
+    margin: 6px 0px 0px 14px;
 }
 
 
 .box2 span{
-    margin: 0;
-    margin-left: 38px;
+    margin: 13px 1px 0px 17px;
     position: absolute;
-    margin-top: 10px;
     padding: 0px 0px 0px 0px ;
     font-size: 11px;
 }
 
+.prev-item {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 800px;
+}
+
+.prev-item ul{
+    font-size: 11px;
+    margin-top: 3px;
+}
+.prev-item span {
+    width: 20px;
+    margin-left: 20px;
+    font-size: 18px;
+}
+.prev-item span{
+    margin-right: 20px;
+    font-size: 18px;
+}
 .underline{
     height: 3px;
     width: 60px;
@@ -549,3 +581,66 @@ height: 32px;
     position: relative;  
 }
 /* Fourth section end */
+
+/* fifth section start */
+.destination-insp{
+    height:77px;
+    width: 422px;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 55px;
+}
+
+.destination-insp h3{
+    font-size: 30px;
+    position: relative;
+    margin-top: 20px;
+}
+
+.destination-insp span{
+    position: absolute;
+    margin-top: 15px;
+}
+
+
+.card2-sec{
+    height: 401px;
+display: flex;
+margin-left: 55px;
+
+padding: 0px 0px 0px 0px;
+}
+.cards2{
+    height: 380px;
+    width:400px;
+    background-image: url(./R.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-left: 55px;
+    margin-top: 20px;
+    border-radius: 20px;
+
+}
+
+.cards2 h2{
+    height: 25px;
+    width: 125px;
+    color: #ffff;
+    font-size: 30px;
+    position: absolute;
+    margin-top: 280px;
+    margin-left: 20px;
+}
+
+.cards2 span {
+position: absolute;
+margin:290px 0px 0px 270px;
+color: white;
+font-size: 20px;
+}
+
+/* fifth section end */
+
+/* vac-sec start*/
+
+/* vac-sec end*/
